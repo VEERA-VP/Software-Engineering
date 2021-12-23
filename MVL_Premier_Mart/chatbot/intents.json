@@ -1,0 +1,83 @@
+{"intents": [
+        {"tag": "Start",
+         "patterns": ["Hi there", "sup", "Is anyone there?","Hey","Hola", "Hello", "konichiwa"],
+         "responses": ["Hello, there", "Hi, I'm your Assistant", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "End",
+         "patterns": ["Bye", "See you later", "Goodbye", "see ya", "Nice chatting with you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back soon."],
+         "context": [""]
+        },
+        {"tag": "Thank",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "Random",
+         "patterns": ["namaste","bi","ty","gn"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through categories, Exchanges, Discounts and Tracking", "Offering support for Products, Categories, Payment and Services"],
+         "context": [""]
+        },
+        {"tag": "categories",
+         "patterns": ["categories", "Open categories", "Give me a list of categories", "List all categories", "Which categories are avilable?" ],
+         "responses": ["cameras, watches, mobiles, bags, shirts, shoes, phones"],
+         "context": [""]
+        },
+        {"tag": "cameras",
+         "patterns": ["cameras","photography", "selfie stick", "lenses", "dslr","canon","sony","nikon","lumix","realme","polaroid","films","reels" ],
+         "responses": ["Navigate to cameras"],
+         "context": [""]
+        },
+        {"tag": "watches",
+         "patterns": ["watches","timex", "rolex", "straps", "smart watches", "fitness tracking", "heart beat sensor", "BPM","jack pierre","sonata","fossil" ],
+         "responses": ["Navigate to watches"],
+         "context": [""]
+        },
+        {"tag": "bags",
+         "patterns": ["bags","school bags","trekking bags","sleeping bags","trolleys","suitcases","wildcraft","safari","paramount"],
+         "responses": ["Navigate to bags"],
+         "context": [""]
+        },
+        {"tag": "shirts",
+         "patterns": ["clothes", "shirts", "apparel", "jerseys", "outfits", "suits" ,"polo","armani","lee","hilfiger" ],
+         "responses": ["Navigate to Shirts"],
+         "context": [""]
+        },
+        {"tag": "shoes",
+         "patterns": ["running","trekking","basketball","football","sneakers","shoes","nike"],
+         "responses": ["Navigate to shoes"],
+         "context": [""]
+        },
+  	{"tag": "iphones",
+         "patterns": ["iphonex","iphone 6","iphone 8","samsung","mi","realme","oppo","vivo","smartphone"],
+         "responses": ["Navigate to mobiles"],
+         "context": [""]
+        },
+        {"tag": "Exchanges",
+         "patterns": ["Exchange Policy", "Returns", "I want to Return", "Refund", "I want a refund","exchange" ],
+         "responses": ["Refunds are authorized on the same day or else return and exchange applicable within 7 days"],
+         "context": [""]
+        },
+        {"tag": "Discounts",
+         "patterns": ["discounts","offers","coupons","concession"],
+         "responses": ["please use NEWUSER50","FIRST20"],
+         "context": [""]
+        },
+	{"tag": "Payment and Services",
+         "patterns": ["Payment","COD","Debit Card","Cash"],
+         "responses": ["We accept Credit Cards Only","COD not available due to COVID"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "Tracking",
+         "patterns": ["track order","track","delivery","arrival"],
+         "responses": ["Tracking Integration Currently Not Available"],
+         "context": [""]
+        }
+   ]
+}
